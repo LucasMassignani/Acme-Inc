@@ -16,13 +16,11 @@ import {
 
 interface IHeader {
   showBanner?: boolean;
-  initialSearchbarValue?: string;
   onSearch: (formData: FormData) => void;
 }
 
 export const Header = ({
   showBanner = true,
-  initialSearchbarValue,
   onSearch,
 }: IHeader): React.ReactElement => {
   const { user } = useAuth();
@@ -34,7 +32,6 @@ export const Header = ({
           <h1>Acme Inc.</h1>
         </StyledLink>
         <Searchbar
-          initialValue={initialSearchbarValue}
           placeholder="O que você está buscando?"
           onSearch={onSearch}
         />
