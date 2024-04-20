@@ -13,3 +13,7 @@ The products are generated randomly and never repeat and during the navigation t
 ## Start
 
 To start the frontend you can run the command "npm run dev". The application will start at localhost:3000.
+
+### Or
+
+You can try this project at: https://acme-d1uj6im5a-lucas-massignanis-projects.vercel.app/
