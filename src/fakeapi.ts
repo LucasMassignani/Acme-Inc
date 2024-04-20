@@ -136,6 +136,7 @@ const apiFactory = () => {
 
       if (!usersString) {
         localStorage.setItem('@AcmeIncFake:users', '[]');
+        users = [];
       } else {
         users = JSON.parse(usersString);
       }
