@@ -7,7 +7,7 @@ export const Success = (): React.ReactElement => {
     <StyledDiv>
       <h1>Compra finalizada!</h1>
       <p>Parabéns pela sua compra!</p>
-      <p>O download do seu JSON á deve ter iniciado</p>
+      <p>O download do seu JSON já deve ter iniciado</p>
     </StyledDiv>
   );
 };
