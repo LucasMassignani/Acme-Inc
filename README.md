@@ -16,4 +16,4 @@ To start the frontend you can run the command "npm run dev". The application wil
 
 ### Or
 
-You can try this project at: https://acme-d1uj6im5a-lucas-massignanis-projects.vercel.app/
+You can try this project at: https://acme-inc-ten.vercel.app/
